@@ -27,6 +27,24 @@
 		7F76D5582F87786800C13083 /* onlineFoodDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onlineFoodDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F76D56A2F87786A00C13083 /* onlineFoodDeliveryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onlineFoodDeliveryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F76D5742F87786A00C13083 /* onlineFoodDeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onlineFoodDeliveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F76D5902F87786A00C13083 /* onlineFoodDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = onlineFoodDeliveryApp.swift; path = onlineFoodDelivery/Main/Views/onlineFoodDeliveryApp.swift; sourceTree = SOURCE_ROOT; };
+		7F76D5912F87786A00C13083 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = onlineFoodDelivery/Main/Views/ContentView.swift; sourceTree = SOURCE_ROOT; };
+		7F76D5922F87786A00C13083 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebServices.swift; path = onlineFoodDelivery/NetworkManager/WebServices.swift; sourceTree = SOURCE_ROOT; };
+		7F76D5932F87786A00C13083 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = onlineFoodDelivery/Persistence.swift; sourceTree = SOURCE_ROOT; };
+		7F76D5952F87786A00C13083 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = onlineFoodDelivery/LocationManager/LocationManager.swift; sourceTree = SOURCE_ROOT; };
+		7F76D5962F87786A00C13083 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoodModel.swift; path = onlineFoodDelivery/Screens/Auth/Models/FoodModel.swift; sourceTree = SOURCE_ROOT; };
+		7F76D5972F87786A00C13083 /* FoodListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoodListViewModel.swift; path = onlineFoodDelivery/Screens/Auth/ViewModels/FoodListViewModel.swift; sourceTree = SOURCE_ROOT; };
+		7F76D5982F87786A00C13083 /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductDetailViewModel.swift; path = onlineFoodDelivery/Screens/Auth/ViewModels/ProductDetailViewModel.swift; sourceTree = SOURCE_ROOT; };
+		7F76D5992F87786A00C13083 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CartView.swift; path = onlineFoodDelivery/Screens/Auth/Views/CartView.swift; sourceTree = SOURCE_ROOT; };
+		7F76D59A2F87786A00C13083 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateAccountView.swift; path = onlineFoodDelivery/Screens/Auth/Views/CreateAccountView.swift; sourceTree = SOURCE_ROOT; };
+		7F76D59B2F87786A00C13083 /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoodListView.swift; path = onlineFoodDelivery/Screens/Auth/Views/FoodListView.swift; sourceTree = SOURCE_ROOT; };
+		7F76D59C2F87786A00C13083 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InputView.swift; path = onlineFoodDelivery/Screens/Auth/Views/InputView.swift; sourceTree = SOURCE_ROOT; };
+		7F76D59D2F87786A00C13083 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = onlineFoodDelivery/Screens/Auth/Views/LoginView.swift; sourceTree = SOURCE_ROOT; };
+		7F76D59E2F87786A00C13083 /* ProductDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductDetailScreen.swift; path = onlineFoodDelivery/Screens/Auth/Views/ProductDetailScreen.swift; sourceTree = SOURCE_ROOT; };
+		7F76D59F2F87786A00C13083 /* CapsuleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CapsuleButtonStyle.swift; path = onlineFoodDelivery/Screens/Auth/Views/Styles/CapsuleButtonStyle.swift; sourceTree = SOURCE_ROOT; };
+		7F76D5A02F87786A00C13083 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkError.swift; path = onlineFoodDelivery/Utilities/NetworkError.swift; sourceTree = SOURCE_ROOT; };
+		7F76D5A12F87786A00C13083 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Strings.swift; path = onlineFoodDelivery/Utilities/Strings.swift; sourceTree = SOURCE_ROOT; };
+		7F76D5A22F87786A00C13083 /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewState.swift; path = onlineFoodDelivery/Utilities/ViewState.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -76,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				7F76D55A2F87786800C13083 /* onlineFoodDelivery */,
+				7F76D58A2F87786A00C13083 /* onlineFoodDelivery */,
 				7F76D56D2F87786A00C13083 /* onlineFoodDeliveryTests */,
 				7F76D5772F87786A00C13083 /* onlineFoodDeliveryUITests */,
 				7F76D5592F87786800C13083 /* Products */,
@@ -91,6 +110,31 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		7F76D58A2F87786A00C13083 /* onlineFoodDelivery */ = {
+			isa = PBXGroup;
+			children = (
+				7F76D5902F87786A00C13083 /* onlineFoodDeliveryApp.swift */,
+				7F76D5912F87786A00C13083 /* ContentView.swift */,
+				7F76D5922F87786A00C13083 /* WebServices.swift */,
+				7F76D5932F87786A00C13083 /* Persistence.swift */,
+				7F76D5952F87786A00C13083 /* LocationManager.swift */,
+				7F76D5962F87786A00C13083 /* FoodModel.swift */,
+				7F76D5972F87786A00C13083 /* FoodListViewModel.swift */,
+				7F76D5982F87786A00C13083 /* ProductDetailViewModel.swift */,
+				7F76D5992F87786A00C13083 /* CartView.swift */,
+				7F76D59A2F87786A00C13083 /* CreateAccountView.swift */,
+				7F76D59B2F87786A00C13083 /* FoodListView.swift */,
+				7F76D59C2F87786A00C13083 /* InputView.swift */,
+				7F76D59D2F87786A00C13083 /* LoginView.swift */,
+				7F76D59E2F87786A00C13083 /* ProductDetailScreen.swift */,
+				7F76D59F2F87786A00C13083 /* CapsuleButtonStyle.swift */,
+				7F76D5A02F87786A00C13083 /* NetworkError.swift */,
+				7F76D5A12F87786A00C13083 /* Strings.swift */,
+				7F76D5A22F87786A00C13083 /* ViewState.swift */,
+			);
+			path = onlineFoodDelivery;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
